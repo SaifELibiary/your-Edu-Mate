@@ -1,28 +1,54 @@
-# Welcome to your Lovable project
+# EduMate 🎓
 
-## Project info
+EduMate is a modern, responsive front-end web application for an education platform that helps students and tutors connect easily.
 
-**URL**: https://lovable.dev/projects/2689ac21-2b6b-41eb-a50f-791a77064c28
+---
 
-## How can I edit this code?
+## 📸 Preview
 
-There are several ways of editing your application.
+(You can add a screenshot or a demo video link here)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2689ac21-2b6b-41eb-a50f-791a77064c28) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🧑‍🏫 Home Page with clean UI and engaging hero section  
+- 🔐 Login / Register system (UI only)  
+- 🌙 Light/Dark Mode toggle  
+- 📚 Dashboard for students (protected UI)  
+- 🧭 Modern animated navigation bar  
+- 🌍 Multi-language support (English/Arabic)  
+- 🎨 Stylish design with animations and transitions  
+- 📱 Fully responsive across all screen sizes
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React + Vite**
+- **TypeScript**
+- **Tailwind CSS**
+- **React Router**
+- **React Query**
+- **Shadcn/ui**
+- **Context API (Theme, Auth, Language)**
+- **Custom Hooks**
 
-Follow these steps:
+---
 
-```sh
+## 📁 Folder Structure
+
+```bash
+src/
+├── assets/            # Images and icons
+├── components/        # Reusable UI components
+├── contexts/          # Theme, Auth, and Language contexts
+├── pages/             # Pages like Landing, Auth, Dashboard
+├── styles/            # Global CSS and Tailwind config
+├── main.tsx           # App entry point
+├── App.tsx            # Main app with routes
+└── ...
+
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
